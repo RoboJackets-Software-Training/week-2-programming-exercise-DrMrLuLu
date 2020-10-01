@@ -1,4 +1,7 @@
 #include <iostream>
+#include <string>
+#include <vector>
+#include "NumberConverter.h"
 
 std::vector<double> readInVector(std::string s) {
   int prev_location = 0;
@@ -19,5 +22,6 @@ std::vector<double> readInVector(std::string s) {
 }
 
 int main() {
-
+  std::string testBinary = "aa";
+  std::cout << hexToDecmal(testBinary) << std::endl;
 }
